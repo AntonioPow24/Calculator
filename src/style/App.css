@@ -1,0 +1,35 @@
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgContainer{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.imgContainer img{
+    
+    height: 50px;
+ }
+
+
+ .principal{
+    width: 400px;
+    height: 100%;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    border-radius: 1.5rem;
+    border: 5px solid rgba(0, 0, 0, 0.71);
+ }
+
+ .fila{
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
